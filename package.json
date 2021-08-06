@@ -1,0 +1,32 @@
+{
+	"name": "donbot-twitch",
+	"version": "1.0.0",
+	"description": "A twitch bot for the channel doncolon",
+	"keywords": [
+		"twitch",
+		"bot",
+		"moderation"
+	],
+	"author": {
+		"name": "Dardan Rrafshi",
+		"email": "dardan.rrafshi@gmail.com",
+		"url": "https://github.com/DonColon"
+	},
+	"license": "Apache-2.0",
+	"homepage": "https://github.com/DonColon/donbot-twitch#readme",
+	"bugs": {
+		"url": "https://github.com/DonColon/donbot-twitch/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/DonColon/donbot-twitch.git"
+	},
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"dependencies": {
+		"dotenv": "^10.0.0",
+		"tmi.js": "^1.8.3"
+	}
+}
